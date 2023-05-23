@@ -1,7 +1,6 @@
-#ⓇDX KARIMI 
-#AFG
-#CONTACT WITH MRr ⓇDX WHATSAPP : +93747976476
-#FOLLOWMY FACEBOOKACCOUNT : https://www.facebook.com/ⓇDX.OffiCail.AcCount4k
+#ⓇDX 
+#CONTACT WITH MRr ⓇDX WHATSAPP : +880
+#FOLLOW MY FACEBOOKACCOUNT : https://www.facebook.com/ⓇDX.OffiCail.AcCount4k
 W = '\0331m'
 R = '\033[91;1m'
 G = '\033[92;1m'
@@ -90,12 +89,12 @@ def back():
 
 ahsan="ALE-"
 imt="-M4786=="
-ak="AHSAN-"
+ak="Rdx-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
+	key1 = open('/data/data/com.termux/files/usr/bin/Rdx-cov', 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'w')
+	kok=open('/data/data/com.termux/files/usr/bin/Rdx-cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
 def login():
@@ -429,7 +428,7 @@ class Main:
 		if Option in ["2", "02"]:
 			Public()
 		if Option in ["3", "03"]:
-			os.system("python ⓇDX.py")
+			os.system("python Rdx02.py")
 		if Option in ["4", "04"]:
 			self.old()
 		if Option in ["5", "05"]:
@@ -1319,7 +1318,7 @@ def Subscraption():
 		print("")
 		print(" Copy And Send Key To Admin")
 		print ("")
-		print (" Your Key : "+ak+ahsan+key1)
+		print (" Your Key : "+ak+rdx+key1)
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
